@@ -1,0 +1,81 @@
+*{
+
+padding: 0 auto;
+margin: 0 auto;
+
+}
+
+body{
+
+background-color: #6D7993;
+
+}
+
+.Contenedor{
+
+width: 80vw;
+
+min-height: 90vh;
+
+border-radius: 30px;
+
+box-sizing: 12px 12px 12px;
+
+border: 5px 3px 5px 3px;
+
+background-color: #9099A2;
+
+margin-top: auto;
+
+box-shadow: 5px 5px 5px;
+
+}
+article{
+
+clear: both;
+
+
+
+margin-top: 10vh;
+margin-bottom: 10vh;
+
+width: 80vw;
+
+}
+
+#Etiqueta{
+
+	float: top;
+	display: block;
+	margin-bottom: 1vh;
+
+
+}
+
+#Nombre{
+
+border-radius:5px;
+
+display: block;
+
+float: top;
+
+margin-left: 0;
+
+width: 15vw;
+
+}
+
+
+
+.Casilla{
+
+	width: 18vw;
+	height: 11vh;
+
+	margin-left: 4vw;
+	margin-right: 4vw;
+
+	float: left;
+
+}

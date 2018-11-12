@@ -1,0 +1,28 @@
+*{
+
+margin: 0 auto;
+padding: 0 auto;
+
+}
+
+#Pantalla1{
+
+	background-image: url(../Img/Egipto1.jpeg);
+	min-width: 100vw;
+	min-height: 100vh;
+	background-repeat: no-repeat;
+
+	background-size: 100% 100%;
+
+}
+
+#Pantalla2{
+
+	background-image: url(../Img/Egipto2.jpeg);
+	min-width: 100vw;
+	min-height: 100vh;
+	background-repeat: no-repeat;
+
+	background-size: 100% 100%;
+
+}

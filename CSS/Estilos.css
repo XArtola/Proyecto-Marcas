@@ -1,0 +1,189 @@
+*{
+
+	margin: 0 auto;
+	padding: 0 auto;
+}
+
+body{
+
+	background-color: rgb(239, 219, 204);
+
+	/*#6B7291, #CAE17B, #C88FBC, #E85550, #FEEA96, #9DD7EA*/
+
+
+}
+
+header{
+
+	text-align: center;
+	font-family: calibri;
+	background-color: rgb(204,224,239);
+	box-shadow: 5px 0px 5px;
+
+	min-height: 100px;
+
+	position: fixed;
+	width: 100%;
+	top: 0px;
+
+}
+
+h1{
+
+font-size: 400%;
+color:white;
+
+}
+
+section{
+
+background-color: white;
+
+
+}
+
+
+aside{
+
+	float: left;
+
+	width: 10%;
+
+	top:100px;
+
+	position: fixed;
+	
+}
+
+ul{
+
+list-style: none;
+
+}
+
+li{
+
+size:500%;
+/*color:#9caac1;*/
+color: #468847;
+margin: 10%;
+
+font-family: Calibri;
+font-weight: bold;
+
+}
+
+li:hover{
+
+background-color:#9caac1;
+color: black;
+
+}
+
+#ContenedorScroll{
+
+	float: left;
+
+	margin-left: 15%;
+
+	width: 75%;
+
+	margin-top: 105px;
+
+}
+
+#BloqueScroll{
+
+	width: 100%;
+
+}
+
+h2{
+
+margin: 1%;
+
+font-family: calibri;
+
+}
+
+p{
+
+margin: 1%;
+
+font-family: calibri;
+
+text-align: justify;
+
+text-indent: 5%;
+
+line-height: 150%;
+
+}
+
+#Mapa{
+
+	background-image: url(../Img/Mapamundi.png);
+	background-repeat: no-repeat;
+	size: 100% 100%;
+
+	width: 980px;
+	height: 570px;
+}
+
+#Flecha1{
+
+	width: 2%;
+	height: 5%;
+}
+
+#Flecha1:hover, #Flecha2:hover, #Flecha3:hover{
+
+	width: 3%;
+	height: 6%;
+
+}
+
+#Flecha2{
+
+	width: 2%;
+	height: 5%;
+}
+
+#Flecha3{
+
+	width: 2%;
+	height: 5%;
+}
+
+iframe{
+
+	display: block;
+	text-align: center;
+
+	
+
+	width: 90%;
+
+	height: 450px;
+
+	border: 3px black;
+
+	margin-bottom: 3%;
+
+
+
+}
+
+
+footer{
+
+
+	clear: both;
+
+	background-image: url(../Img/Header.png);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+
+	min-height: 200px;
+
+}
