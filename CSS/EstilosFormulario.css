@@ -29,6 +29,8 @@ margin-top: auto;
 
 box-shadow: 5px 5px 5px;
 
+overflow: hidden;
+
 }
 article{
 
@@ -78,4 +80,24 @@ width: 15vw;
 
 	float: left;
 
+}
+
+h2{
+
+
+	margin: 1%;
+
+}
+
+#PosCasilla{
+
+	margin-left: 5vw;
+
+
+}
+
+ul{
+
+
+	list-style: none;
 }

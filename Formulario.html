@@ -11,9 +11,9 @@
     <body>
         <section class="Contenedor">
             <article>
-                <h1>
+                <h2>
                     Rellena el formulario con tus datos
-                </h1>
+                </h2>
             </article>
             <article>
                 <div class="Casilla">
@@ -41,7 +41,7 @@
                     <label id="Etiqueta">
                         DNI
                     </label>
-                    <input id="Nombre" placeholder="Escribe aqui tu DNI" type="text">
+                    <input id="Nombre" maxlength="9" placeholder="Escribe aqui tu DNI"  type="text">
                     </input>
                 </div>
             </article>
@@ -133,7 +133,7 @@
                     <label id="Etiqueta">
                         Fecha de inicio
                     </label>
-                    <input name="nacimiento" title="Elige la fecha de comienzo" type="date" value="2018-11-12"/>
+                    <input title="Elige la fecha de comienzo" type="date" value="2018-11-12"/>
                 </div>
                 <div class="Casilla">
                     <label id="Etiqueta">
@@ -146,36 +146,48 @@
                 <h2>
                     Situaciones especiales
                 </h2>
-                <input type="checkbox" value="Damasco"/>
+                <ul>
+                    <li>
+                <input  type="checkbox"/>
                 Discapacidad
-                <input checked="" name="destino2" type="checkbox" value="Kabul"/>
+                </li>
+
+                <li>
+                <input checked="" type="checkbox"/>
                 Alergias
+
+                </li>
+                <li>
                 <input name="destino3" type="checkbox" value="Belgrado"/>
                 Otros
 
                   <input autofocus="" name="nombre" required="" size="40" title="Escribe tu aqui la informacion" type="text"/>
+
+                  </li>
+
+                </ul>
             </article>
             <article>
                 <h2>
                     Cuantas personas van a viajar
                 </h2>
-                <input max="100" min="1" name="comics" step="1" title="Numero de personas" type="number" value="1"/>
+                <input max="100" min="1" name="comics" step="1" title="Numero de personas" type="number" value="1" id="PosCasilla"/>
             </article>
             <article>
                 <h2>
                     Codigo de descuento
                 </h2>
-                <input name="password" required="" size="7" title="Escribe la contraseña que desee..." type="password"/>
+                <input id="PosCasilla" required="" size="7" title="Escribe aqui tu codigo de descuento" type="password"/>
             </article>
             <article>
                 <h2>
                     Enviar datos
                 </h2>
-                <input type="submit" value="Enviar los datos"/>
+                <input type="submit" value="Enviar los datos" id="PosCasilla"/>
             </article>
             <article>
               
-                
+  
             </article>
         </section>
     </body>
