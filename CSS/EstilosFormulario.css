@@ -1,46 +1,46 @@
 *{
 
-padding: 0 auto;
-margin: 0 auto;
+	padding: 0 auto;
+	margin: 0 auto;
 
 }
 
 body{
 
-background-color: #6D7993;
+	background-color: #6D7993;
 
 }
 
 .Contenedor{
 
-width: 80vw;
+	width: 80vw;
 
-min-height: 90vh;
+	min-height: 90vh;
 
-border-radius: 30px;
+	border-radius: 30px;
 
-box-sizing: 12px 12px 12px;
+	box-sizing: 12px 12px 12px;
 
-border: 5px 3px 5px 3px;
+	border: 5px 3px 5px 3px;
 
-background-color: #9099A2;
+	background-color: #9099A2;
 
-margin-top: auto;
+	margin-top: auto;
 
-box-shadow: 5px 5px 5px;
+	box-shadow: 5px 5px 5px;
 
-overflow: hidden;
+	overflow: hidden;
 
 }
 
 article{
 
-clear: both;
+	clear: both;
 
-margin-top: 10vh;
-margin-bottom: 10vh;
+	margin-top: 10vh;
+	margin-bottom: 10vh;
 
-width: 80vw;
+	width: 80vw;
 
 }
 
@@ -55,17 +55,17 @@ width: 80vw;
 
 #Nombre{
 
-border-radius:5px;
+	border-radius:5px;
 
-display: block;
+	display: block;
 
-float: top;
+	float: top;
 
-margin-left: 0;
+	margin-left: 0;
 
-width: 20vw;
+	width: 20vw;
 
-height: 5vh;
+	height: 5vh;
 
 }
 
@@ -73,8 +73,14 @@ select{
 
 	width: 150px;
 	line-height: 15vh;
+	font-size: 4vh;
 
+}
 
+option{
+
+	font-size: 4vh;
+	
 }
 
 
@@ -127,6 +133,6 @@ select{
 
 input{
 
-font-size: 3vh;
+	font-size: 3vh;
 
 }
