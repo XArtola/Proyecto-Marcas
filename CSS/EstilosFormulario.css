@@ -49,6 +49,7 @@ article{
 	float: top;
 	display: block;
 	margin-bottom: 1vh;
+	font-size: 4vh;
 
 
 }
@@ -80,7 +81,7 @@ select{
 option{
 
 	font-size: 4vh;
-	
+
 }
 
 
@@ -136,3 +137,6 @@ input{
 	font-size: 3vh;
 
 }
+
+
+

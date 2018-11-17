@@ -30,14 +30,14 @@ header{
 
 h1{
 
-font-size: 400%;
-color:white;
+	font-size: 400%;
+	color:white;
 
 }
 
 section{
 
-background-color: white;
+	background-color: white;
 
 
 }
@@ -47,7 +47,7 @@ aside{
 
 	float: left;
 
-	width: 10%;
+	width: 15%;
 
 	top:100px;
 
@@ -57,27 +57,40 @@ aside{
 
 ul{
 
-list-style: none;
+	list-style: none;
+	margin-left: 0%;
+	
 
 }
 
 li{
 
-size:500%;
-/*color:#9caac1;*/
-color: #468847;
-margin: 10%;
+	size:500%;
+	/*color: #468847;*/
+	color: grey;
+	margin: 10% 10% 0 0%;
 
-font-family: Calibri;
-font-weight: bold;
+	font-size: 175%;
+	font-family: Calibri;
+	font-weight: bold;
+
+
 
 }
 
 li:hover{
 
-background-color:#9caac1;
-color: black;
+	background-color:#9caac1;
+	color: black;
 
+	border: 1px solid black;
+	border-radius: 5px;
+
+}
+
+a:hover, a:visited, a:link, a:active
+{
+	text-decoration: none;
 }
 
 #ContenedorScroll{
@@ -100,23 +113,25 @@ color: black;
 
 h2{
 
-margin: 1%;
+	margin: 3%;
 
-font-family: calibri;
+	font-size: 150%;
+
+	font-family: calibri;
 
 }
 
 p{
 
-margin: 1%;
+	margin: 3% 5% 3% 5%;
 
-font-family: calibri;
+	font-family: calibri;
 
-text-align: justify;
+	text-align: justify;
 
-text-indent: 5%;
+	text-indent: 5%;
 
-line-height: 150%;
+	line-height: 150%;
 
 }
 
